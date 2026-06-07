@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>綺毛寄 KIMO-JI｜寵物旅館與健康鮮食照護</title>
+  <meta name="description" content="綺毛寄提供安心住宿、健康鮮食與專屬生活紀錄，陪伴毛孩在外宿期間保留熟悉節奏，讓家長放心看見每一天的照護狀況。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800;900&family=Noto+Serif+TC:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header transparent-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="回到綺毛寄首頁">
+        <img src="images/logo-kimoji-horizontal.png" alt="綺毛寄 KIMO-JI 品牌標誌" title="綺毛寄 KIMO-JI" aria-label="綺毛寄 KIMO-JI 品牌標誌">
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="開啟導覽選單" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="主選單">
+        <a class="active" href="index.html">首頁</a>
+        <a href="about.html">關於我們</a>
+        <a href="stay.html">住宿方案</a>
+        <a href="menu.html">健康餐菜單</a>
+        <a href="order.html">線上訂購</a>
+        <a href="record.html">健康紀錄</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-outline btn-nav" href="login.html">登入 / 註冊</a>
+        <a class="btn btn-primary btn-nav" href="order.html">立即預約</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="綺毛寄主視覺輪播">
+      <div class="hero-track">
+        <article class="hero-slide hero-slide-dog is-active" data-slide="0">
+          <div class="hero-copy">
+            <p class="eyebrow">PET HOTEL &amp; CARE</p>
+            <h1>讓每一次外宿<br>都像在家一樣安心</h1>
+            <p class="hero-text">安心住宿 × 健康鮮食 × 專屬紀錄，替毛孩保留熟悉的生活節奏。</p>
+            <div class="hero-buttons">
+              <a class="btn btn-primary btn-lg" href="order.html">立即預約</a>
+              <a class="btn btn-outline btn-lg" href="stay.html">了解住宿</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/hero-dog-bowl.jpg" alt="狗狗在溫暖住宿空間旁享用熟食餐點" title="安心住宿與健康鮮食" aria-label="狗狗在溫暖住宿空間旁享用熟食餐點">
+          </div>
+        </article>
+
+        <article class="hero-slide hero-slide-cat" data-slide="1">
+          <div class="hero-copy">
+            <p class="eyebrow">DOG &amp; CAT FRIENDLY</p>
+            <h2>狗貓分區<br>各自住得自在</h2>
+            <p class="hero-text">依照毛孩習性安排休息空間，降低陌生環境帶來的緊張感。</p>
+            <div class="hero-buttons">
+              <a class="btn btn-primary btn-lg" href="stay.html">查看住宿方案</a>
+              <a class="btn btn-outline btn-lg" href="about.html">了解照護方式</a>
+            </div>
+          </div>
+          <div class="hero-image cat-hero-image">
+            <img src="images/cta-cat.jpg" alt="貓咪在木質住宿空間中休息" title="狗狗貓咪分區住宿" aria-label="貓咪在木質住宿空間中休息">
+          </div>
+        </article>
+
+        <article class="hero-slide hero-slide-record" data-slide="2">
+          <div class="hero-copy">
+            <p class="eyebrow">DAILY CARE RECORD</p>
+            <h2>每日紀錄<br>照護細節每天都看得見</h2>
+            <p class="hero-text">照片、飲食與作息回報，讓家長隨時掌握毛孩狀態。</p>
+            <div class="hero-buttons">
+              <a class="btn btn-primary btn-lg" href="record.html">查看紀錄服務</a>
+              <a class="btn btn-outline btn-lg" href="order.html">立即預約</a>
+            </div>
+          </div>
+          <div class="hero-image hero-record-ui">
+            <div class="record-board" aria-label="每日照護紀錄介面示意">
+              <div class="record-phone">
+                <div class="phone-notch"></div>
+                <img src="images/service-record.jpg" alt="手機中的毛孩照護紀錄介面" title="每日照護紀錄示意" aria-label="手機中的毛孩照護紀錄介面">
+                <div class="record-lines">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="record-card-mini">
+                <strong>今日狀態</strong>
+                <p>食慾正常｜情緒穩定</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <button class="carousel-arrow prev" type="button" aria-label="上一張輪播">‹</button>
+      <button class="carousel-arrow next" type="button" aria-label="下一張輪播">›</button>
+      <div class="carousel-dots" aria-label="輪播切換">
+        <button class="is-active" type="button" aria-label="切換到第一張"></button>
+        <button type="button" aria-label="切換到第二張"></button>
+        <button type="button" aria-label="切換到第三張"></button>
+      </div>
+    </section>
+
+    <section class="worry-section">
+      <div class="content-wrap worry-grid">
+        <div class="worry-title">
+          <p>外宿時，毛孩可能會遇到…</p>
+          <h2>那些看不見的小不安</h2>
+        </div>
+        <div class="worry-list">
+          <article class="worry-item">
+            <div class="kicon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M21 9v18M16 9v13M26 9v13M16 22h10M21 27v28M43 9v46M43 9c-7 7-7 19 0 26"/></svg>
+            </div>
+            <div>
+              <h3>食慾下降</h3>
+              <p>環境改變影響進食</p>
+            </div>
+          </article>
+          <article class="worry-item">
+            <div class="kicon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><circle cx="32" cy="33" r="20"/><path d="M24 28h.01M40 28h.01M24 43c4-4 12-4 16 0M20 16l-4-5M32 12V6M44 16l4-5"/></svg>
+            </div>
+            <div>
+              <h3>情緒緊張</h3>
+              <p>陌生空間容易焦慮</p>
+            </div>
+          </article>
+          <article class="worry-item">
+            <div class="kicon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M29 10v13c0 4 3 7 7 7h3c8 0 14 6 14 14 0 7-6 12-13 12-10 0-18-8-18-18V26c0-5-4-9-9-9"/><path d="M34 40c2-2 6-2 8 0M34 47c2-2 6-2 8 0"/></svg>
+            </div>
+            <div>
+              <h3>腸胃不適</h3>
+              <p>飲食與作息變動</p>
+            </div>
+          </article>
+          <article class="worry-item">
+            <div class="kicon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M10 31 32 13l22 18"/><path d="M17 29v24h30V29M27 53V39h10v14"/><path d="M25 30c5 4 9 4 14 0"/></svg>
+            </div>
+            <div>
+              <h3>環境適應</h3>
+              <p>需要安靜熟悉節奏</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="care-section">
+      <div class="content-wrap care-grid">
+        <div class="section-intro">
+          <p class="eyebrow">OUR CARE</p>
+          <h2>用心照護<br>日常都顧好</h2>
+          <p>從住宿環境到飲食細節，每個服務都以降低毛孩壓力為核心，讓外宿不是勉強適應，而是被好好照顧。</p>
+          <a class="btn btn-outline" href="about.html">查看完整服務 →</a>
+        </div>
+
+        <div class="care-cards">
+          <article class="care-card">
+            <img src="images/service-stay.jpg" alt="溫暖乾淨的寵物住宿房間" title="安心住宿" aria-label="溫暖乾淨的寵物住宿房間">
+            <div class="care-card-body">
+              <span class="care-badge" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 25 24 12l16 13M14 24v16h20V24M20 40V30h8v10"/></svg></span>
+              <h3>安心住宿</h3>
+              <p>狗狗與貓咪分區安置，依照習性安排適合的休息空間。</p>
+              <a href="stay.html">了解更多 →</a>
+            </div>
+          </article>
+
+          <article class="care-card">
+            <img src="images/service-meal.jpg" alt="以熟食雞肉與蔬菜搭配的寵物健康鮮食" title="健康鮮食" aria-label="以熟食雞肉與蔬菜搭配的寵物健康鮮食">
+            <div class="care-card-body">
+              <span class="care-badge" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M12 22h24l-3 16H15l-3-16zM18 22c1-6 11-8 12 0M18 16c4-5 9-5 13-1"/></svg></span>
+              <h3>健康鮮食</h3>
+              <p>依照毛孩不同需求，提供加購健康餐點選擇。</p>
+              <a href="menu.html">了解更多 →</a>
+            </div>
+          </article>
+
+          <article class="care-card">
+            <img src="images/service-record.jpg" alt="手機中的毛孩照護紀錄介面" title="專屬紀錄" aria-label="手機中的毛孩照護紀錄介面">
+            <div class="care-card-body">
+              <span class="care-badge" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="11" y="16" width="26" height="18" rx="3" ry="3"/><path d="M18 16l2.5-4h7L30 16"/><circle cx="24" cy="25" r="5.5"/><path d="M32 20h2"/></svg></span>
+              <h3>專屬紀錄</h3>
+              <p>每日照片與狀態回報，讓家長透過紀錄看見照護過程。</p>
+              <a href="record.html">了解更多 →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="daily-section">
+      <div class="content-wrap daily-grid">
+        <div class="daily-copy">
+          <h2>每日生活紀錄</h2>
+          <p>定時回報毛孩的生活點滴，讓您即使不在身邊也能安心。</p>
+          <a class="btn btn-outline" href="record.html">查看紀錄範例 →</a>
+        </div>
+
+        <div class="daily-timeline" aria-label="每日照護時間軸">
+          <button class="time-point is-active" type="button" data-time="morning" data-image="images/morning.jpg" data-alt="毛孩早晨在住宿空間甦醒的紀錄照片" data-title="早晨生活紀錄">
+            <span class="time-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M10 31h28"/><path d="M17 31a7 7 0 0 1 14 0"/><path d="M24 10v6M14 15l3 3M34 15l-3 3"/><path d="M9 24h4M35 24h4"/></svg></span>
+            <strong>早上 08:00</strong>
+            <em>活力滿滿的開始</em>
+          </button>
+          <button class="time-point" type="button" data-time="noon" data-image="images/lunch.jpg" data-alt="毛孩中午享用健康鮮食的紀錄照片" data-title="中午生活紀錄">
+            <span class="time-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="8"/><path d="M24 5v6M24 37v6M5 24h6M37 24h6M11 11l4 4M33 33l4 4M37 11l-4 4M15 33l-4 4"/></svg></span>
+            <strong>中午 12:00</strong>
+            <em>享用美味午餐</em>
+          </button>
+          <button class="time-point" type="button" data-time="afternoon" data-image="images/afternoon.jpg" data-alt="毛孩下午活動放風的紀錄照片" data-title="下午生活紀錄">
+            <span class="time-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="13"/><path d="M19 21h.01M29 21h.01"/><path d="M18 28c2 3 10 3 12 0"/></svg></span>
+            <strong>下午 16:00</strong>
+            <em>放風與互動時間</em>
+          </button>
+          <button class="time-point" type="button" data-time="night" data-image="images/sleeping.jpg" data-alt="毛孩晚上準備休息的紀錄照片" data-title="晚上生活紀錄">
+            <span class="time-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M31 12c-2-1-4-1-6-1-9 0-16 7-16 16s7 16 16 16c6 0 12-4 15-9-2 1-4 1-6 1-9 0-16-7-16-16 0-3 1-5 2-7 2 1 4 1 5 0z"/></svg></span>
+            <strong>晚上 20:00</strong>
+            <em>準備好好休息囉</em>
+          </button>
+        </div>
+
+        <img id="dailyPhoto" class="daily-photo" src="images/service-stay.jpg" alt="毛孩早晨在住宿空間甦醒的紀錄照片" title="早晨生活紀錄" aria-label="毛孩早晨在住宿空間甦醒的紀錄照片">
+      </div>
+    </section>
+
+
+    <section class="menu-teaser-section">
+      <div class="content-wrap menu-teaser-wrap">
+        <div class="menu-teaser-head">
+          <p class="eyebrow">HEALTHY MENU</p>
+          <h2>健康餐菜單</h2>
+          <p>狗狗與貓咪在營養比例、口感偏好上都不太一樣，因此會依毛孩狀況安排不同餐點，首頁先看三種方向。</p>
+        </div>
+        <div class="menu-teaser-grid menu-equal-grid">
+          <article class="menu-card equal-card">
+            <img src="images/service-meal.jpg" alt="狗狗適合的雞肉鮮食餐" title="狗狗鮮食主餐" aria-label="狗狗適合的雞肉鮮食餐">
+            <div class="menu-card-body">
+              <span class="menu-chip">DOG MENU</span>
+              <h3>狗狗元氣雞肉餐</h3>
+              <p>以雞肉搭配南瓜與蔬菜，口味溫和、飽足感足，適合多數狗狗外宿期間食用。</p>
+            </div>
+          </article>
+          <article class="menu-card equal-card">
+            <img src="images/cat-meal.jpg" alt="貓咪適合的嫩雞鮮食餐" title="貓咪鮮食主餐" aria-label="貓咪適合的嫩雞鮮食餐">
+            <div class="menu-card-body">
+              <span class="menu-chip">CAT MENU</span>
+              <h3>貓咪嫩雞鮮肉餐</h3>
+              <p>口感更細緻，份量與搭配會依貓咪飲食習慣調整，降低換環境時的排斥感。</p>
+            </div>
+          </article>
+          <article class="menu-card equal-card">
+            <img src="images/customized-meal.jpg" alt="依照毛孩需求調整的客製鮮食餐" title="客製搭配餐" aria-label="依照毛孩需求調整的客製鮮食餐">
+            <div class="menu-card-body">
+              <span class="menu-chip light">CUSTOM CARE</span>
+              <h3>客製營養搭配</h3>
+              <p>若有年齡、食量或特殊照護需求，也可再搭配加購小食與客製化調整。</p>
+            </div>
+          </article>
+        </div>
+        <div class="section-action-center">
+          <a class="btn btn-outline" href="menu.html">查看完整菜單 →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="life-gallery-section">
+      <div class="content-wrap">
+        <div class="section-top-row">
+          <div>
+            <p class="eyebrow">PET DAILY MOMENTS</p>
+            <h2>🐾 入住中的毛孩日常</h2>
+            <p class="section-subtext">吃飯、休息、活動與回報，讓家長更具體感受到毛孩在綺毛寄的一天。</p>
+          </div>
+          <a class="btn btn-outline" href="record.html">看更多照護紀錄 →</a>
+        </div>
+
+        <div class="life-gallery-grid">
+          <article class="life-card">
+            <img src="images/eating.jpg" alt="毛孩享用鮮食的日常畫面" title="享用鮮食" aria-label="毛孩享用鮮食的日常畫面">
+            <div class="life-card-body">
+              <h3>享用鮮食</h3>
+              <p>依照安排準備餐點，讓毛孩在熟悉節奏裡安心吃飯。</p>
+            </div>
+          </article>
+          <article class="life-card">
+            <img src="images/sleeping2.jpg" alt="毛孩在住宿空間休息" title="安穩休息" aria-label="毛孩在住宿空間休息">
+            <div class="life-card-body">
+              <h3>安穩休息</h3>
+              <p>乾淨明亮的住宿環境，讓牠有自己的放鬆小角落。</p>
+            </div>
+          </article>
+          <article class="life-card">
+            <img src="images/daily-dog.jpg" alt="毛孩在戶外活動的生活紀錄" title="活動放風" aria-label="毛孩在戶外活動的生活紀錄">
+            <div class="life-card-body">
+              <h3>活動放風</h3>
+              <p>透過互動與活動時間，舒緩外宿的不安與無聊感。</p>
+            </div>
+          </article>
+          <article class="life-card">
+            <img src="images/service-record2.jpg" alt="手機中的每日照護回報畫面" title="每日回報" aria-label="手機中的每日照護回報畫面">
+            <div class="life-card-body">
+              <h3>每日回報</h3>
+              <p>照片與狀態同步回傳，讓家長在外也能安心追蹤。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="plan-preview-section">
+      <div class="content-wrap">
+        <div class="section-top-row align-end">
+          <div>
+            <p class="eyebrow">STAY PLAN</p>
+            <h2>住宿方案簡覽</h2>
+          </div>
+          <a class="btn btn-outline" href="stay.html">查看完整住宿方案 →</a>
+        </div>
+
+        <div class="plan-promo-note">
+          <strong>限時優惠活動</strong>
+          <span>2026/5/8 ～ 2026/6/8 預約入住，可享指定方案優惠價。</span>
+        </div>
+
+        <div class="plan-preview-grid">
+          <article class="plan-preview-card">
+            <span class="plan-label">初見禮</span>
+            <strong>首次住宿 NT$ 799 起</strong>
+            <p>有標準房、精緻房、豪華房，依照體型挑選適合入住方案。</p>
+          </article>
+          <article class="plan-preview-card featured">
+            <span class="plan-label">限時優惠</span>
+            <div class="price-row">
+              <span class="price-old">原價 NT$ 629</span>
+              <strong>優惠價 NT$ 569</strong>
+            </div>
+            <p>健康住宿套餐含每日一餐健康鮮食與入住狀態回報，活動期間預約更划算。(此房型為小型寵物+標準房)</p>
+          </article>
+          <article class="plan-preview-card">
+            <span class="plan-label">健康餐加購</span>
+            <strong>NT$ 129 起</strong>
+            <p>以單餐方式彈性加購，適合想先從鮮食體驗開始的家長。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking-section">
+      <div class="content-wrap booking-card">
+        <div class="booking-copy">
+          <p class="eyebrow">BOOKING</p>
+          <h2>給牠一個更穩妥的外宿選擇</h2>
+          <p>無論是短期或長期住宿，我們用貼心的服務，守護毛孩每一天的生活。</p>
+          <div class="cta-actions">
+            <a class="btn btn-light" href="order.html">立即預約住宿 →</a>
+            <a class="btn btn-ghost" href="contact.html">聯絡我們 →</a>
+          </div>
+        </div>
+        <div class="booking-photo">
+          <img src="images/cta-cat.jpg" alt="貓咪在木質住宿空間中休息" title="安心外宿選擇" aria-label="貓咪在木質住宿空間中休息">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-info">
+        <div class="footer-brand-col">
+          <img src="images/logo-kimoji-horizontal.png" alt="綺毛寄 KIMO-JI 品牌標誌" title="綺毛寄 KIMO-JI" aria-label="綺毛寄 KIMO-JI 品牌標誌">
+          <p>讓住宿、鮮食與每日紀錄接在一起，替毛孩保留熟悉的生活節奏。</p>
+        </div>
+        <div>
+          <h3>聯絡資訊</h3>
+          <p>電話：04-1234-5678</p>
+          <p>地址：台中市西區毛孩路 88 號</p>
+          <p>營業時間：週一至週日 09:00－20:00</p>
+        </div>
+        <div>
+          <h3>快速連結</h3>
+          <a href="stay.html">住宿方案</a>
+          <a href="menu.html">健康餐菜單</a>
+          <a href="order.html">線上訂購</a>
+          <a href="record.html">健康紀錄</a>
+        </div>
+        <div class="footer-qr">
+          <h3>加入官方帳號</h3>
+          <img src="images/qrcode.png" alt="綺毛寄官方帳號 QR Code" title="綺毛寄官方帳號 QR Code" aria-label="綺毛寄官方帳號 QR Code">
+          <p>掃描 QR Code 查看更多毛孩日常</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 綺毛寄 KIMO-JI. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
